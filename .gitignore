@@ -1,0 +1,10 @@
+node-api/mochawesome-report
+node-api/node_modules
+.gradle/
+.idea/
+.settings/
+bin/
+servlet-api/build
+spring-mvc/build
+spring-reactive/build
+gradle/

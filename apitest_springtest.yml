@@ -1,0 +1,11 @@
+config:
+  target: 'https://spring-mvc-ujckmwfc3q-uc.a.run.app'
+  phases:
+    - duration: 60
+      arrivalRate: 20
+
+
+scenarios:
+  - flow:
+      - get:
+          url: "/api/v0/quotes"
